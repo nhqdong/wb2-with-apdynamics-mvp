@@ -5,6 +5,8 @@ A minimum replication of wb2 component + *ngIf issue while using appdynamics lib
 
 Comment appdynamics lib in index.html to make wb2 component works with *ngIf.
 
+Note: wb2 components are Web Components built with Stencil (https://stenciljs.com/).
+
 ## Project Setup
 Please run npm -i and view `http://localhost:4200/` in Internet Explorer / MS Edge.
 
