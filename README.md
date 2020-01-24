@@ -2,7 +2,7 @@
 
 A minimum replication of wb2 component + *ngIf issue while using appdynamics lib. 
 
-Problem: if we earge-load App Dynamic script in index.hml, the Workbench 2 (wb2) components cannot be re-initialized inside *ngIf container **only in Internet Explorer & MS Edge**
+Problem: if we eager-load App Dynamic script in index.hml, the Workbench 2 (wb2) components cannot be re-initialized inside *ngIf container **only in Internet Explorer & MS Edge**
 
 Work-around: defer App Dynamic script to be loaded after Angular/Web Component initialize.
 
