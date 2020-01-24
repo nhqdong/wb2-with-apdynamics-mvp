@@ -14,6 +14,11 @@ Please run npm -i and view `http://localhost:4200/` in Internet Explorer / MS Ed
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Reproduce steps
+1. Disable script-loader service to load the script
+2. Uncomment the script link in index.html
+3. Run on IE/Edge and click the button to toggle component's display
+
 ## Change log
 - Change App Dynamic script version to v4.5.17
 - Defer App Dynamic script to be loaded after Angular/Web Component initialize.
