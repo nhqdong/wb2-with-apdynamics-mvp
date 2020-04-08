@@ -5,20 +5,23 @@
 <i>comment appdynamics lib in index.html to make wb2 component works with *ngIf</i>
 
 <br>
+<br>
 <button (click)="toggle()">Display: {{isEnabled}}</button>
 
 <div *ngIf="isEnabled" style="margin-top: 100px;">
   <wb2-spinner></wb2-spinner>
 
-  <wb2-input-control>
-    <wb2-input>
-      <label>
-        Lorem ipsum
-      </label>
-      <textarea
-        placeholder="lorem ipsum"
-        required>
-    </textarea>
-    </wb2-input>
-  </wb2-input-control>
+  <div style="width: 300px">
+    <wb2-input-control>
+      <wb2-input>
+        <label>
+          Lorem ipsum
+        </label>
+        <textarea
+          placeholder="lorem ipsum"
+          required>
+        </textarea>
+      </wb2-input>
+    </wb2-input-control>
+  </div>
 </div>
