@@ -8,6 +8,9 @@
 <br>
 <button (click)="toggle()">Display: {{isEnabled}}</button>
 
+<button (click)="loadScripts()">Load appdynamics</button>
+
+
 <div *ngIf="isEnabled" style="margin-top: 100px;">
   <wb2-spinner></wb2-spinner>
 
