@@ -12,8 +12,9 @@ if (environment.production) {
 
 
 platformBrowserDynamic().bootstrapModule(AppModule).then(() => {
-  applyPolyfills().then(() => {
-    defineCustomElements(window);
-  });
 }).catch(err => console.error(err));
 
+
+applyPolyfills().then(() => {
+  defineCustomElements(window);
+});
